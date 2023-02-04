@@ -96,7 +96,8 @@ export default function App() {
 
   // Navbar drawer functionality
 
-  const [open, setOpen] = useState(true);
+  // Closed drawer by default
+  const [open, setOpen] = useState(false);
   const toggleDrawer = () => {
     setOpen(!open);
   };

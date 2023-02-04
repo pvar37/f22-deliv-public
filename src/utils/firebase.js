@@ -44,7 +44,9 @@ export function SignInScreen() {
    return (
       <div>
          <h1>Sign in to Links for Climate Good</h1>
-         <p>Please sign-in with your Github account:</p>
+         {/* Added description */}
+         <h3>Links for Climate Good provides resources to help you stay educated and educate others on climate change developments!</h3>
+         <p>Please sign in with your Github account:</p>
          <StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={firebase.auth()} />
       </div>
    );
